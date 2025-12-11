@@ -9,11 +9,10 @@ terraform {
   }
 }
 
-# Configure the AWS Provider
+# Configure the AWS Provider to use the EC2 IAM role
 provider "aws" {
-  region                   = "ap-south-1"
-  shared_credentials_files = ["~/.aws/credentials"]  # Use AWS credentials file
-  profile                  = "default"  # Specify AWS CLI profile if required
+  region = "ap-south-1"
+
   default_tags {
     tags = {
       Project     = "Super Mario EKS Deployment"
@@ -21,3 +20,4 @@ provider "aws" {
     }
   }
 }
+
