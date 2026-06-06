@@ -37,4 +37,4 @@ spec:
             path: /
             port: 80
           initialDelaySeconds: 3
-          periodSeconds: 5,
+          periodSeconds: 5
