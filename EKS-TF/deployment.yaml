@@ -1,6 +1,6 @@
 apiVersion: apps/v1
 kind: Deployment
-metadata:
+metadata:m
   name: mario-deployment
   labels:
     app: mario
