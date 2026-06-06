@@ -13,7 +13,7 @@ spec:
     metadata:
       labels:
         app: mario
-    spec:
+    spec:n
       containers:
       - name: mario-container
         image: sevenajay/mario:latest 
