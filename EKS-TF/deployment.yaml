@@ -10,7 +10,7 @@ spec:
     matchLabels:
       app: mario
   template:
-    metadata:n
+    metadata:
       labels:
         app: mario
     spec:
